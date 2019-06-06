@@ -1,0 +1,223 @@
+{
+  "name": "mynetwork",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "client": {
+    "tlsEnable": true,
+    "adminUser": "admin",
+    "adminPassword": "adminpw",
+    "enableAuthentication": false,
+    "organization": "Utility",
+    "connection": {
+      "timeout": {
+        "peer": {
+          "endorser": "300"
+        }
+      }
+    }
+  },
+  "channels": {
+    "commonchannel": {
+      "peers": {
+        "peer0.utility.example.com": {},
+        "peer1.utility.example.com": {},
+        "peer2.utility.example.com": {},
+        "peer3.utility.example.com": {},
+        "peer4.utility.example.com": {},
+        "peer0.solar.example.com": {},
+        "peer1.solar.example.com": {},
+        "peer2.solar.example.com": {},
+        "peer3.solar.example.com": {},
+        "peer4.solar.example.com": {}
+      },
+      "connection": {
+        "timeout": {
+          "peer": {
+            "endorser": "60000",
+            "eventHub": "60000",
+            "eventReg": "60000"
+          }
+        }
+      }
+    },
+    "u2schannel": {
+      "peers": {
+        "peer0.utility.example.com": {},
+        "peer1.utility.example.com": {},
+        "peer2.utility.example.com": {},
+        "peer3.utility.example.com": {},
+        "peer4.utility.example.com": {},
+        "peer0.solar.example.com": {},
+        "peer1.solar.example.com": {},
+        "peer2.solar.example.com": {},
+        "peer3.solar.example.com": {},
+        "peer4.solar.example.com": {}
+      },
+      "connection": {
+        "timeout": {
+          "peer": {
+            "endorser": "60000",
+            "eventHub": "60000",
+            "eventReg": "60000"
+          }
+        }
+      }
+    }
+  },
+  "organizations": {
+    "UtilityMSP": {
+      "mspid": "UtilityMSP",
+      "fullpath": false,
+      "adminPrivateKey": {
+        "path": "/home/pi/P2P/raspberrypi/artifactscrypto-config/peerOrganizations/utility.example.com/users/Admin@utility.example.com/msp/keystore/b5e27b911c1a145df04045628e632f882c8657362e7140bd55b02482fd97f05f_sk"
+      },
+      "signedCert": {
+        "path": "/home/pi/P2P/raspberrypi/artifactscrypto-config/peerOrganizations/utility.example.com/users/Admin@utility.example.com/msp/signcerts/Admin@utility.example.com-cert.pem"
+      },
+      "certificateAuthorities": ["ca.utility.example.com"],
+      "peers": [
+        "peer0.utility.example.com",
+        "peer1.utility.example.com",
+        "peer2.utility.example.com",
+        "peer3.utility.example.com",
+        "peer4.utility.example.com"
+      ]
+    },
+    "SolarMSP": {
+      "mspid": "SolarMSP",
+      "fullpath": false,
+      "adminPrivateKey": {
+        "path": "/home/pi/P2P/raspberrypi/artifactscrypto-config/peerOrganizations/solar.example.com/users/Admin@solar.example.com/msp/keystore/12ca66fb017834c7c92dbc3be7cbd7b2302754495646655ba9c64accee9fdfe0_sk"
+      },
+      "signedCert": {
+        "path": "/home/pi/P2P/raspberrypi/artifactscrypto-config/peerOrganizations/solar.example.com/users/Admin@solar.example.com/msp/signcerts/Admin@solar.example.com-cert.pem"
+      },
+      "certificateAuthorities": ["ca.solar.example.com"],
+      "peers": [
+        "peer0.solar.example.com",
+        "peer1.solar.example.com",
+        "peer2.solar.example.com",
+        "peer3.solar.example.com",
+        "peer4.solar.example.com"
+      ]
+    }
+  },
+  "peers": {
+    "peer0.utility.example.com": {
+      "tlsCACerts": {
+        "path": "/home/pi/P2P/raspberrypi/artifactscrypto-config/peerOrganizations/utility.example.com/peers/peer0.utility.example.com/tls/ca.crt"
+      },
+      "url": "grpc://localhost:7051",
+      "eventUrl": "grpc://localhost:7053",
+      "grpcOptions": {
+        "ssl-target-name-override": "peer0.utility.example.com"
+      }
+    },
+    "peer1.utility.example.com": {
+      "tlsCACerts": {
+        "path": "/home/pi/P2P/raspberrypi/artifactscrypto-config/peerOrganizations/utility.example.com/peers/peer1.utility.example.com/tls/ca.crt"
+      },
+      "url": "grpc://localhost:8051",
+      "eventUrl": "grpc://localhost:8053",
+      "grpcOptions": {
+        "ssl-target-name-override": "peer1.utility.example.com"
+      }
+    },
+    "peer2.utility.example.com": {
+      "tlsCACerts": {
+        "path": "/home/pi/P2P/raspberrypi/artifactscrypto-config/peerOrganizations/utility.example.com/peers/peer2.utility.example.com/tls/ca.crt"
+      },
+      "url": "grpc://localhost:9051",
+      "eventUrl": "grpc://localhost:9053",
+      "grpcOptions": {
+        "ssl-target-name-override": "peer2.utility.example.com"
+      }
+    },
+    "peer3.utility.example.com": {
+      "tlsCACerts": {
+        "path": "/home/pi/P2P/raspberrypi/artifactscrypto-config/peerOrganizations/utility.example.com/peers/peer3.utility.example.com/tls/ca.crt"
+      },
+      "url": "grpc://localhost:10051",
+      "eventUrl": "grpc://localhost:10053",
+      "grpcOptions": {
+        "ssl-target-name-override": "peer3.utility.example.com"
+      }
+    },
+    "peer4.utility.example.com": {
+      "tlsCACerts": {
+        "path": "/home/pi/P2P/raspberrypi/artifactscrypto-config/peerOrganizations/utility.example.com/peers/peer4.utility.example.com/tls/ca.crt"
+      },
+      "url": "grpc://localhost:11051",
+      "eventUrl": "grpc://localhost:11053",
+      "grpcOptions": {
+        "ssl-target-name-override": "peer4.utility.example.com"
+      }
+    },
+    "peer0.solar.example.com": {
+      "tlsCACerts": {
+        "path": "/home/pi/P2P/raspberrypi/artifactscrypto-config/peerOrganizations/solar.example.com/peers/peer0.solar.example.com/tls/ca.crt"
+      },
+      "url": "grpc://192.168.200.247:7151",
+      "eventUrl": "grpc://192.168.200.247:7153",
+      "grpcOptions": {
+        "ssl-target-name-override": "peer0.solar.example.com"
+      }
+    },
+    "peer1.solar.example.com": {
+      "tlsCACerts": {
+        "path": "/home/pi/P2P/raspberrypi/artifactscrypto-config/peerOrganizations/solar.example.com/peers/peer1.solar.example.com/tls/ca.crt"
+      },
+      "url": "grpc://192.168.200.247:8151",
+      "eventUrl": "grpc://192.168.200.247:8153",
+      "grpcOptions": {
+        "ssl-target-name-override": "peer1.solar.example.com"
+      }
+    },
+    "peer2.solar.example.com": {
+      "tlsCACerts": {
+        "path": "/home/pi/P2P/raspberrypi/artifactscrypto-config/peerOrganizations/solar.example.com/peers/peer2.solar.example.com/tls/ca.crt"
+      },
+      "url": "grpc://192.168.200.247:9151",
+      "eventUrl": "grpc://192.168.200.247:9153",
+      "grpcOptions": {
+        "ssl-target-name-override": "peer2.solar.example.com"
+      }
+    },
+    "peer3.solar.example.com": {
+      "tlsCACerts": {
+        "path": "/home/pi/P2P/raspberrypi/artifactscrypto-config/peerOrganizations/solar.example.com/peers/peer3.solar.example.com/tls/ca.crt"
+      },
+      "url": "grpc://192.168.200.247:10151",
+      "eventUrl": "grpc://192.168.200.247:10153",
+      "grpcOptions": {
+        "ssl-target-name-override": "peer3.solar.example.com"
+      }
+    },
+    "peer4.solar.example.com": {
+      "tlsCACerts": {
+        "path": "/home/pi/P2P/raspberrypi/artifactscrypto-config/peerOrganizations/solar.example.com/peers/peer4.solar.example.com/tls/ca.crt"
+      },
+      "url": "grpc://192.168.200.247:11051",
+      "eventUrl": "grpc://192.168.200.247:11053",
+      "grpcOptions": {
+        "ssl-target-name-override": "peer4.solar.example.com"
+      }
+    }
+  },
+  "certificateAuthorities": {
+    "ca.utility.example.com": {
+      "url": "http://localhost:7054",
+      "httpOptions": {
+        "verify": false
+      },
+      "caName": "ca.utility.example.com"
+    },
+    "ca.solar.example.com": {
+      "url": "http://192.168.200.247:8054",
+      "httpOptions": {
+        "verify": false
+      },
+      "caName": "ca.solar.example.com"
+    }
+  }
+}

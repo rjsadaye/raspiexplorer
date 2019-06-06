@@ -1,0 +1,2782 @@
+false 'ssl-certs' '/home/raj/Junedemo/blockchain-explorer/ssl-certs'
+postgres://hppoc:password@127.0.0.1:5432/fabricexplorer
+******* Initialization started for hyperledger fabric platform ******, { mynetwork: 
+   { name: 'mynetwork',
+     profile: './connection-profile/mynetwork.json' } }
+ client_configs.name  mynetwork  client_configs.profile  ./connection-profile/mynetwork.json
+FabricUtils.createFabricClient 
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  commonchannel
+FabricConfig, this.config.channels  u2schannel
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [commonchannel] >> cb442ab3761af30d134fd2c702b2f9eb3b5e7ba897dfcfe22cd3ca86e669fb8f
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2schannel] >> ee2ee06a74e1bea29b517d582c4dea2eba04d11f5b04803fb149cadcfcd4a016
+initializeChannelFromDiscover  u2bchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2bchannel] >> 4f0ce94d6975c34e99c5ea010d5290c60bafffed54e15da964caa070a90105cf
+initializeChannelFromDiscover  u2cchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2cchannel] >> 89ef164d91e2923300e35f8f15d5741dbba3b190fa48480554fb96ee05f90060
+FabricUtils.createDetachClient 
+
+
+Please open web browser to access ：http://localhost:8080/
+
+
+pid is 14241
+
+
+req.body { user: 'admin', password: 'admin', network: 'mynetwork' }
+Network: mynetwork enableAuthentication false
+initializeChannelFromDiscover  u2schannel
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  u2schannel
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+req.body { user: 'admin', password: 'admin', network: 'mynetwork' }
+Network: mynetwork enableAuthentication false
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+2019-06-05T13:31:10.637Z - [31merror[39m: [Remote.js]: Error: Failed to connect before the deadline URL:grpc://localhost:7051
+2019-06-05T13:31:10.638Z - [31merror[39m: [Channel.js]: Error: Failed to connect before the deadline URL:grpc://localhost:7051
+2019-06-05T13:31:10.644Z - [31merror[39m: [Remote.js]: Error: Failed to connect before the deadline URL:grpc://localhost:7051
+2019-06-05T13:31:10.644Z - [31merror[39m: [Channel.js]: Error: Failed to connect before the deadline URL:grpc://localhost:7051
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+2019-06-05T13:31:29.689Z - [31merror[39m: [Remote.js]: Error: Failed to connect before the deadline URL:grpc://localhost:7051
+2019-06-05T13:31:29.689Z - [31merror[39m: [Channel.js]: Error: Failed to connect before the deadline URL:grpc://localhost:7051
+2019-06-05T13:31:29.690Z - [31merror[39m: [Remote.js]: Error: Failed to connect before the deadline URL:grpc://localhost:7051
+2019-06-05T13:31:29.690Z - [31merror[39m: [Channel.js]: Error: Failed to connect before the deadline URL:grpc://localhost:7051
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+2019-06-05T13:32:10.640Z - [31merror[39m: [Remote.js]: Error: Failed to connect before the deadline URL:grpc://localhost:7051
+2019-06-05T13:32:10.640Z - [31merror[39m: [Channel.js]: Error: Failed to connect before the deadline URL:grpc://localhost:7051
+2019-06-05T13:32:10.641Z - [31merror[39m: [Remote.js]: Error: Failed to connect before the deadline URL:grpc://localhost:7051
+2019-06-05T13:32:10.641Z - [31merror[39m: [Channel.js]: Error: Failed to connect before the deadline URL:grpc://localhost:7051
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+2019-06-05T13:32:29.668Z - [31merror[39m: [Remote.js]: Error: Failed to connect before the deadline URL:grpc://localhost:7051
+2019-06-05T13:32:29.668Z - [31merror[39m: [Channel.js]: Error: Failed to connect before the deadline URL:grpc://localhost:7051
+2019-06-05T13:32:29.669Z - [31merror[39m: [Remote.js]: Error: Failed to connect before the deadline URL:grpc://localhost:7051
+2019-06-05T13:32:29.669Z - [31merror[39m: [Channel.js]: Error: Failed to connect before the deadline URL:grpc://localhost:7051
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+2019-06-05T13:33:10.640Z - [31merror[39m: [Remote.js]: Error: Failed to connect before the deadline URL:grpc://localhost:7051
+2019-06-05T13:33:10.640Z - [31merror[39m: [Channel.js]: Error: Failed to connect before the deadline URL:grpc://localhost:7051
+2019-06-05T13:33:10.642Z - [31merror[39m: [Remote.js]: Error: Failed to connect before the deadline URL:grpc://localhost:7051
+2019-06-05T13:33:10.642Z - [31merror[39m: [Channel.js]: Error: Failed to connect before the deadline URL:grpc://localhost:7051
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+2019-06-05T13:33:29.659Z - [31merror[39m: [Remote.js]: Error: Failed to connect before the deadline URL:grpc://localhost:7051
+2019-06-05T13:33:29.659Z - [31merror[39m: [Channel.js]: Error: Failed to connect before the deadline URL:grpc://localhost:7051
+2019-06-05T13:33:29.661Z - [31merror[39m: [Remote.js]: Error: Failed to connect before the deadline URL:grpc://localhost:7051
+2019-06-05T13:33:29.661Z - [31merror[39m: [Channel.js]: Error: Failed to connect before the deadline URL:grpc://localhost:7051
+Received kill signal, shutting down gracefully
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing explorer  >>>>>>>>>>>>>>>>>>>>>
+Closed out connections
+false 'ssl-certs' '/home/raj/Junedemo/blockchain-explorer/ssl-certs'
+postgres://hppoc:password@127.0.0.1:5432/fabricexplorer
+******* Initialization started for hyperledger fabric platform ******, { mynetwork: 
+   { name: 'mynetwork',
+     profile: './connection-profile/mynetwork.json' } }
+ client_configs.name  mynetwork  client_configs.profile  ./connection-profile/mynetwork.json
+FabricUtils.createFabricClient 
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  commonchannel
+FabricConfig, this.config.channels  u2schannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [commonchannel] >> a2e794654c656363a72d996de3095c013c201bca96b7c5a55678c0a8851b003a
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2schannel] >> 4c91ef6ddf4a8dad2704094685b577f11dd5cdee39510ba1b4e79450975d7b5a
+initializeChannelFromDiscover  u2bchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2bchannel] >> 9a6b7ea0bd5b234f65520e33026792e6f61d5370f3b22a15218002b2ea1d8ef4
+initializeChannelFromDiscover  u2cchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2cchannel] >> a2a3133be651c8148e93ed798f7dfdf753728bd92acff84c7e20b0345a527a1f
+FabricUtils.createDetachClient 
+
+
+Please open web browser to access ：http://localhost:8080/
+
+
+pid is 9196
+
+
+req.body { user: 'admin', password: 'admin', network: 'mynetwork' }
+Network: mynetwork enableAuthentication false
+initializeChannelFromDiscover  u2schannel
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  u2schannel
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  u2schannel
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  u2schannel
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  u2schannel
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  u2schannel
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  u2schannel
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  u2schannel
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  u2schannel
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  u2schannel
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+(node:9196) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 message listeners added. Use emitter.setMaxListeners() to increase limit
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+false 'ssl-certs' '/home/raj/Junedemo/blockchain-explorer/ssl-certs'
+postgres://hppoc:password@127.0.0.1:5432/fabricexplorer
+******* Initialization started for hyperledger fabric platform ******, { mynetwork: 
+   { name: 'mynetwork',
+     profile: './connection-profile/mynetwork.json' } }
+ client_configs.name  mynetwork  client_configs.profile  ./connection-profile/mynetwork.json
+FabricUtils.createFabricClient 
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  commonchannel
+FabricConfig, this.config.channels  u2schannel
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  u2cchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2cchannel] >> e501ef3500911f13055d280c8f3487c2f4c2783e40ad990276595dc48d3b98ff
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [commonchannel] >> 2ae2319c910fa4e9e26fc5e0a36fb40054587dcc8be49e3a9bec1e9a44bbbcae
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2schannel] >> 3289bc69a8dd30da8917cc0b9701ca4bf788403a16365c91c29ca043391ea7f8
+initializeChannelFromDiscover  u2bchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2bchannel] >> 7b1252e9037581e9ff837e7ee00d6b094c3bd9e0ffe35f2ff84b959f74ecbacf
+FabricUtils.createDetachClient 
+
+
+Please open web browser to access ：http://localhost:8080/
+
+
+pid is 10499
+
+
+req.body { user: 'admin', password: 'admin', network: 'mynetwork' }
+Network: mynetwork enableAuthentication false
+initializeChannelFromDiscover  u2schannel
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+req.body { user: 'admin', password: 'admin', network: 'mynetwork' }
+Network: mynetwork enableAuthentication false
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+initializeChannelFromDiscover  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Received kill signal, shutting down gracefully

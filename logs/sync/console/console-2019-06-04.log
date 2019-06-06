@@ -1,0 +1,1244 @@
+postgres://hppoc:password@127.0.0.1:5432/fabricexplorer
+
+Sync process is started for the network : [mynetwork] and client : [mynetwork]
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  commonchannel
+FabricConfig, this.config.channels  u2schannel
+(node:8801) DeprecationWarning: grpc.load: Use the @grpc/proto-loader module with grpc.loadPackageDefinition instead
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [commonchannel] >> cb442ab3761af30d134fd2c702b2f9eb3b5e7ba897dfcfe22cd3ca86e669fb8f
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2schannel] >> ee2ee06a74e1bea29b517d582c4dea2eba04d11f5b04803fb149cadcfcd4a016
+initializeChannelFromDiscover  u2bchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2bchannel] >> 4f0ce94d6975c34e99c5ea010d5290c60bafffed54e15da964caa070a90105cf
+initializeChannelFromDiscover  u2cchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2cchannel] >> 89ef164d91e2923300e35f8f15d5741dbba3b190fa48480554fb96ee05f90060
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2schannel
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2bchannel
+initializeChannelFromDiscover  u2bchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2cchannel
+initializeChannelFromDiscover  u2cchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+
+
+Synchronizer pid is 8801
+
+
+SyncPlatform initialize()-- @  Tue Jun 04 2019
+
+Sync process is started for the network : [mynetwork] and client : [mynetwork]
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  commonchannel
+FabricConfig, this.config.channels  u2schannel
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [commonchannel] >> cb442ab3761af30d134fd2c702b2f9eb3b5e7ba897dfcfe22cd3ca86e669fb8f
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2schannel] >> ee2ee06a74e1bea29b517d582c4dea2eba04d11f5b04803fb149cadcfcd4a016
+initializeChannelFromDiscover  u2bchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2bchannel] >> 4f0ce94d6975c34e99c5ea010d5290c60bafffed54e15da964caa070a90105cf
+initializeChannelFromDiscover  u2cchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2cchannel] >> 89ef164d91e2923300e35f8f15d5741dbba3b190fa48480554fb96ee05f90060
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2schannel
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2bchannel
+initializeChannelFromDiscover  u2bchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2cchannel
+initializeChannelFromDiscover  u2cchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncPlatform initialize()-- @  Tue Jun 04 2019
+
+Sync process is started for the network : [mynetwork] and client : [mynetwork]
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  commonchannel
+FabricConfig, this.config.channels  u2schannel
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [commonchannel] >> cb442ab3761af30d134fd2c702b2f9eb3b5e7ba897dfcfe22cd3ca86e669fb8f
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2schannel] >> ee2ee06a74e1bea29b517d582c4dea2eba04d11f5b04803fb149cadcfcd4a016
+initializeChannelFromDiscover  u2bchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2bchannel] >> 4f0ce94d6975c34e99c5ea010d5290c60bafffed54e15da964caa070a90105cf
+initializeChannelFromDiscover  u2cchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2cchannel] >> 89ef164d91e2923300e35f8f15d5741dbba3b190fa48480554fb96ee05f90060
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2schannel
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2bchannel
+initializeChannelFromDiscover  u2bchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2cchannel
+initializeChannelFromDiscover  u2cchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncPlatform initialize()-- @  Tue Jun 04 2019
+
+Sync process is started for the network : [mynetwork] and client : [mynetwork]
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  commonchannel
+FabricConfig, this.config.channels  u2schannel
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [commonchannel] >> cb442ab3761af30d134fd2c702b2f9eb3b5e7ba897dfcfe22cd3ca86e669fb8f
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2schannel] >> ee2ee06a74e1bea29b517d582c4dea2eba04d11f5b04803fb149cadcfcd4a016
+initializeChannelFromDiscover  u2bchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2bchannel] >> 4f0ce94d6975c34e99c5ea010d5290c60bafffed54e15da964caa070a90105cf
+initializeChannelFromDiscover  u2cchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2cchannel] >> 89ef164d91e2923300e35f8f15d5741dbba3b190fa48480554fb96ee05f90060
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2schannel
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2bchannel
+initializeChannelFromDiscover  u2bchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2cchannel
+initializeChannelFromDiscover  u2cchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncPlatform initialize()-- @  Tue Jun 04 2019
+
+Sync process is started for the network : [mynetwork] and client : [mynetwork]
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  commonchannel
+FabricConfig, this.config.channels  u2schannel
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  u2bchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2bchannel] >> 4f0ce94d6975c34e99c5ea010d5290c60bafffed54e15da964caa070a90105cf
+initializeChannelFromDiscover  u2cchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2cchannel] >> 89ef164d91e2923300e35f8f15d5741dbba3b190fa48480554fb96ee05f90060
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [commonchannel] >> cb442ab3761af30d134fd2c702b2f9eb3b5e7ba897dfcfe22cd3ca86e669fb8f
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2schannel] >> ee2ee06a74e1bea29b517d582c4dea2eba04d11f5b04803fb149cadcfcd4a016
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2schannel
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2bchannel
+initializeChannelFromDiscover  u2bchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2cchannel
+initializeChannelFromDiscover  u2cchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncPlatform initialize()-- @  Tue Jun 04 2019
+
+Sync process is started for the network : [mynetwork] and client : [mynetwork]
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  commonchannel
+FabricConfig, this.config.channels  u2schannel
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  u2cchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2cchannel] >> 89ef164d91e2923300e35f8f15d5741dbba3b190fa48480554fb96ee05f90060
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [commonchannel] >> cb442ab3761af30d134fd2c702b2f9eb3b5e7ba897dfcfe22cd3ca86e669fb8f
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2schannel] >> ee2ee06a74e1bea29b517d582c4dea2eba04d11f5b04803fb149cadcfcd4a016
+initializeChannelFromDiscover  u2bchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2bchannel] >> 4f0ce94d6975c34e99c5ea010d5290c60bafffed54e15da964caa070a90105cf
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2schannel
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2cchannel
+initializeChannelFromDiscover  u2cchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2bchannel
+initializeChannelFromDiscover  u2bchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncPlatform initialize()-- @  Tue Jun 04 2019
+
+Sync process is started for the network : [mynetwork] and client : [mynetwork]
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  commonchannel
+FabricConfig, this.config.channels  u2schannel
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2schannel] >> ee2ee06a74e1bea29b517d582c4dea2eba04d11f5b04803fb149cadcfcd4a016
+initializeChannelFromDiscover  u2bchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2bchannel] >> 4f0ce94d6975c34e99c5ea010d5290c60bafffed54e15da964caa070a90105cf
+initializeChannelFromDiscover  u2cchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2cchannel] >> 89ef164d91e2923300e35f8f15d5741dbba3b190fa48480554fb96ee05f90060
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [commonchannel] >> cb442ab3761af30d134fd2c702b2f9eb3b5e7ba897dfcfe22cd3ca86e669fb8f
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2schannel
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2bchannel
+initializeChannelFromDiscover  u2bchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2cchannel
+initializeChannelFromDiscover  u2cchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncPlatform initialize()-- @  Tue Jun 04 2019
+
+Sync process is started for the network : [mynetwork] and client : [mynetwork]
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  commonchannel
+FabricConfig, this.config.channels  u2schannel
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  u2bchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2bchannel] >> 4f0ce94d6975c34e99c5ea010d5290c60bafffed54e15da964caa070a90105cf
+initializeChannelFromDiscover  u2cchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2cchannel] >> 89ef164d91e2923300e35f8f15d5741dbba3b190fa48480554fb96ee05f90060
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [commonchannel] >> cb442ab3761af30d134fd2c702b2f9eb3b5e7ba897dfcfe22cd3ca86e669fb8f
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2schannel] >> ee2ee06a74e1bea29b517d582c4dea2eba04d11f5b04803fb149cadcfcd4a016
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2schannel
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2bchannel
+initializeChannelFromDiscover  u2bchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2cchannel
+initializeChannelFromDiscover  u2cchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncPlatform initialize()-- @  Tue Jun 04 2019
+
+Sync process is started for the network : [mynetwork] and client : [mynetwork]
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  commonchannel
+FabricConfig, this.config.channels  u2schannel
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [commonchannel] >> cb442ab3761af30d134fd2c702b2f9eb3b5e7ba897dfcfe22cd3ca86e669fb8f
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2schannel] >> ee2ee06a74e1bea29b517d582c4dea2eba04d11f5b04803fb149cadcfcd4a016
+initializeChannelFromDiscover  u2bchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2bchannel] >> 4f0ce94d6975c34e99c5ea010d5290c60bafffed54e15da964caa070a90105cf
+initializeChannelFromDiscover  u2cchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2cchannel] >> 89ef164d91e2923300e35f8f15d5741dbba3b190fa48480554fb96ee05f90060
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2schannel
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2bchannel
+initializeChannelFromDiscover  u2bchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2cchannel
+initializeChannelFromDiscover  u2cchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncPlatform initialize()-- @  Tue Jun 04 2019
+
+Sync process is started for the network : [mynetwork] and client : [mynetwork]
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  commonchannel
+FabricConfig, this.config.channels  u2schannel
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [commonchannel] >> cb442ab3761af30d134fd2c702b2f9eb3b5e7ba897dfcfe22cd3ca86e669fb8f
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2schannel] >> ee2ee06a74e1bea29b517d582c4dea2eba04d11f5b04803fb149cadcfcd4a016
+initializeChannelFromDiscover  u2bchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2bchannel] >> 4f0ce94d6975c34e99c5ea010d5290c60bafffed54e15da964caa070a90105cf
+initializeChannelFromDiscover  u2cchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2cchannel] >> 89ef164d91e2923300e35f8f15d5741dbba3b190fa48480554fb96ee05f90060
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2schannel
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2bchannel
+initializeChannelFromDiscover  u2bchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2cchannel
+initializeChannelFromDiscover  u2cchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncPlatform initialize()-- @  Tue Jun 04 2019
+
+Sync process is started for the network : [mynetwork] and client : [mynetwork]
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  commonchannel
+FabricConfig, this.config.channels  u2schannel
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [commonchannel] >> cb442ab3761af30d134fd2c702b2f9eb3b5e7ba897dfcfe22cd3ca86e669fb8f
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2schannel] >> ee2ee06a74e1bea29b517d582c4dea2eba04d11f5b04803fb149cadcfcd4a016
+initializeChannelFromDiscover  u2bchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2bchannel] >> 4f0ce94d6975c34e99c5ea010d5290c60bafffed54e15da964caa070a90105cf
+initializeChannelFromDiscover  u2cchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2cchannel] >> 89ef164d91e2923300e35f8f15d5741dbba3b190fa48480554fb96ee05f90060
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2schannel
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2bchannel
+initializeChannelFromDiscover  u2bchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2cchannel
+initializeChannelFromDiscover  u2cchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncPlatform initialize()-- @  Tue Jun 04 2019
+
+Sync process is started for the network : [mynetwork] and client : [mynetwork]
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  commonchannel
+FabricConfig, this.config.channels  u2schannel
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  u2bchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2bchannel] >> 4f0ce94d6975c34e99c5ea010d5290c60bafffed54e15da964caa070a90105cf
+initializeChannelFromDiscover  u2cchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2cchannel] >> 89ef164d91e2923300e35f8f15d5741dbba3b190fa48480554fb96ee05f90060
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [commonchannel] >> cb442ab3761af30d134fd2c702b2f9eb3b5e7ba897dfcfe22cd3ca86e669fb8f
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2schannel] >> ee2ee06a74e1bea29b517d582c4dea2eba04d11f5b04803fb149cadcfcd4a016
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2schannel
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2bchannel
+initializeChannelFromDiscover  u2bchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2cchannel
+initializeChannelFromDiscover  u2cchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncPlatform initialize()-- @  Tue Jun 04 2019
+
+Sync process is started for the network : [mynetwork] and client : [mynetwork]
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  commonchannel
+FabricConfig, this.config.channels  u2schannel
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [commonchannel] >> cb442ab3761af30d134fd2c702b2f9eb3b5e7ba897dfcfe22cd3ca86e669fb8f
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2schannel] >> ee2ee06a74e1bea29b517d582c4dea2eba04d11f5b04803fb149cadcfcd4a016
+initializeChannelFromDiscover  u2bchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2bchannel] >> 4f0ce94d6975c34e99c5ea010d5290c60bafffed54e15da964caa070a90105cf
+initializeChannelFromDiscover  u2cchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2cchannel] >> 89ef164d91e2923300e35f8f15d5741dbba3b190fa48480554fb96ee05f90060
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2schannel
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2bchannel
+initializeChannelFromDiscover  u2bchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2cchannel
+initializeChannelFromDiscover  u2cchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncPlatform initialize()-- @  Tue Jun 04 2019
+
+Sync process is started for the network : [mynetwork] and client : [mynetwork]
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  commonchannel
+FabricConfig, this.config.channels  u2schannel
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [commonchannel] >> cb442ab3761af30d134fd2c702b2f9eb3b5e7ba897dfcfe22cd3ca86e669fb8f
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2schannel] >> ee2ee06a74e1bea29b517d582c4dea2eba04d11f5b04803fb149cadcfcd4a016
+initializeChannelFromDiscover  u2bchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2bchannel] >> 4f0ce94d6975c34e99c5ea010d5290c60bafffed54e15da964caa070a90105cf
+initializeChannelFromDiscover  u2cchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2cchannel] >> 89ef164d91e2923300e35f8f15d5741dbba3b190fa48480554fb96ee05f90060
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2schannel
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2bchannel
+initializeChannelFromDiscover  u2bchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2cchannel
+initializeChannelFromDiscover  u2cchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncPlatform initialize()-- @  Tue Jun 04 2019
+
+Sync process is started for the network : [mynetwork] and client : [mynetwork]
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  commonchannel
+FabricConfig, this.config.channels  u2schannel
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2schannel] >> ee2ee06a74e1bea29b517d582c4dea2eba04d11f5b04803fb149cadcfcd4a016
+initializeChannelFromDiscover  u2bchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2bchannel] >> 4f0ce94d6975c34e99c5ea010d5290c60bafffed54e15da964caa070a90105cf
+initializeChannelFromDiscover  u2cchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2cchannel] >> 89ef164d91e2923300e35f8f15d5741dbba3b190fa48480554fb96ee05f90060
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [commonchannel] >> cb442ab3761af30d134fd2c702b2f9eb3b5e7ba897dfcfe22cd3ca86e669fb8f
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2schannel
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2bchannel
+initializeChannelFromDiscover  u2bchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2cchannel
+initializeChannelFromDiscover  u2cchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncPlatform initialize()-- @  Tue Jun 04 2019
+
+Sync process is started for the network : [mynetwork] and client : [mynetwork]
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  commonchannel
+FabricConfig, this.config.channels  u2schannel
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  u2bchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2bchannel] >> 4f0ce94d6975c34e99c5ea010d5290c60bafffed54e15da964caa070a90105cf
+initializeChannelFromDiscover  u2cchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2cchannel] >> 89ef164d91e2923300e35f8f15d5741dbba3b190fa48480554fb96ee05f90060
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [commonchannel] >> cb442ab3761af30d134fd2c702b2f9eb3b5e7ba897dfcfe22cd3ca86e669fb8f
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2schannel] >> ee2ee06a74e1bea29b517d582c4dea2eba04d11f5b04803fb149cadcfcd4a016
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2schannel
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2bchannel
+initializeChannelFromDiscover  u2bchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2cchannel
+initializeChannelFromDiscover  u2cchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncPlatform initialize()-- @  Tue Jun 04 2019
+
+Sync process is started for the network : [mynetwork] and client : [mynetwork]
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  commonchannel
+FabricConfig, this.config.channels  u2schannel
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [commonchannel] >> cb442ab3761af30d134fd2c702b2f9eb3b5e7ba897dfcfe22cd3ca86e669fb8f
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2schannel] >> ee2ee06a74e1bea29b517d582c4dea2eba04d11f5b04803fb149cadcfcd4a016
+initializeChannelFromDiscover  u2bchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2bchannel] >> 4f0ce94d6975c34e99c5ea010d5290c60bafffed54e15da964caa070a90105cf
+initializeChannelFromDiscover  u2cchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2cchannel] >> 89ef164d91e2923300e35f8f15d5741dbba3b190fa48480554fb96ee05f90060
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2schannel
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2bchannel
+initializeChannelFromDiscover  u2bchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2cchannel
+initializeChannelFromDiscover  u2cchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncPlatform initialize()-- @  Tue Jun 04 2019
+
+Sync process is started for the network : [mynetwork] and client : [mynetwork]
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  commonchannel
+FabricConfig, this.config.channels  u2schannel
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  u2cchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2cchannel] >> 89ef164d91e2923300e35f8f15d5741dbba3b190fa48480554fb96ee05f90060
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [commonchannel] >> cb442ab3761af30d134fd2c702b2f9eb3b5e7ba897dfcfe22cd3ca86e669fb8f
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2schannel] >> ee2ee06a74e1bea29b517d582c4dea2eba04d11f5b04803fb149cadcfcd4a016
+initializeChannelFromDiscover  u2bchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2bchannel] >> 4f0ce94d6975c34e99c5ea010d5290c60bafffed54e15da964caa070a90105cf
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2schannel
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2cchannel
+initializeChannelFromDiscover  u2cchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2bchannel
+initializeChannelFromDiscover  u2bchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncPlatform initialize()-- @  Tue Jun 04 2019
+
+Sync process is started for the network : [mynetwork] and client : [mynetwork]
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  commonchannel
+FabricConfig, this.config.channels  u2schannel
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  u2cchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2cchannel] >> 89ef164d91e2923300e35f8f15d5741dbba3b190fa48480554fb96ee05f90060
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [commonchannel] >> cb442ab3761af30d134fd2c702b2f9eb3b5e7ba897dfcfe22cd3ca86e669fb8f
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2schannel] >> ee2ee06a74e1bea29b517d582c4dea2eba04d11f5b04803fb149cadcfcd4a016
+initializeChannelFromDiscover  u2bchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2bchannel] >> 4f0ce94d6975c34e99c5ea010d5290c60bafffed54e15da964caa070a90105cf
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2schannel
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2cchannel
+initializeChannelFromDiscover  u2cchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2bchannel
+initializeChannelFromDiscover  u2bchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncPlatform initialize()-- @  Tue Jun 04 2019
+
+Sync process is started for the network : [mynetwork] and client : [mynetwork]
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  commonchannel
+FabricConfig, this.config.channels  u2schannel
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  u2bchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2bchannel] >> 4f0ce94d6975c34e99c5ea010d5290c60bafffed54e15da964caa070a90105cf
+initializeChannelFromDiscover  u2cchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2cchannel] >> 89ef164d91e2923300e35f8f15d5741dbba3b190fa48480554fb96ee05f90060
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [commonchannel] >> cb442ab3761af30d134fd2c702b2f9eb3b5e7ba897dfcfe22cd3ca86e669fb8f
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2schannel] >> ee2ee06a74e1bea29b517d582c4dea2eba04d11f5b04803fb149cadcfcd4a016
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2schannel
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2bchannel
+initializeChannelFromDiscover  u2bchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2cchannel
+initializeChannelFromDiscover  u2cchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncPlatform initialize()-- @  Tue Jun 04 2019
+
+Sync process is started for the network : [mynetwork] and client : [mynetwork]
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  commonchannel
+FabricConfig, this.config.channels  u2schannel
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [commonchannel] >> cb442ab3761af30d134fd2c702b2f9eb3b5e7ba897dfcfe22cd3ca86e669fb8f
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2schannel] >> ee2ee06a74e1bea29b517d582c4dea2eba04d11f5b04803fb149cadcfcd4a016
+initializeChannelFromDiscover  u2bchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2bchannel] >> 4f0ce94d6975c34e99c5ea010d5290c60bafffed54e15da964caa070a90105cf
+initializeChannelFromDiscover  u2cchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+Channel genesis hash for channel [u2cchannel] >> 89ef164d91e2923300e35f8f15d5741dbba3b190fa48480554fb96ee05f90060
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2schannel
+initializeChannelFromDiscover  u2schannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  commonchannel
+initializeChannelFromDiscover  commonchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2bchannel
+initializeChannelFromDiscover  u2bchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+SyncServices.synchNetworkConfigToDB client  mynetwork  channel_name  u2cchannel
+initializeChannelFromDiscover  u2cchannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
